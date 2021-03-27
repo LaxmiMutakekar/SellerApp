@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="android.permission.INTERNET"
     package="com.example.sellerapp">
    <application
+        android:usesCleartextTraffic="true"
         android:label="sellerapp"
         android:icon="@mipmap/ic_launcher">
         <activity
